@@ -1,0 +1,23 @@
+p:hover {
+    color: pink
+}
+
+
+.move:hover {
+    position: relative;
+    top: -4px;
+}
+
+
+input:focus {
+    border: 2px solid blue;
+    outline: none
+} 
+
+.pen::first-letter {
+    font-size: 50px
+}
+
+p::before {
+    content: ">"
+}

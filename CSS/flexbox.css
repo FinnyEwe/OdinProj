@@ -1,0 +1,31 @@
+/* All elements are  by default statically positioned*/
+p {
+    background-color: lightblue;
+    border: 2px solid black;
+    padding: 10px;
+    font-size: large;
+    font-weight: bold;
+    font-family: sans-serif
+}
+
+.box {
+    background-color: rgb(107, 154, 107);
+    width: 300px;
+    height: 300px;
+    top: 100px;
+    left: 100px;
+}
+
+.cox { /*good for navigation bars */
+    background-color: rgb(148, 94, 154);
+    width: 300px;
+    height: 300px;
+    top: 100px;
+    left: 100px;
+    position: sticky
+}
+
+.long { /*z-index is the priority of elements appearing as a stack, needs position relative*/
+    position: relative;
+    z-index: 1;
+}

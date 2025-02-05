@@ -1,0 +1,11 @@
+h1 {
+    color: red
+}
+
+#pp {
+    color: rgb(15, 231, 109);
+}
+
+a[href='www.youtube.com'] {
+    color: pink;
+}
