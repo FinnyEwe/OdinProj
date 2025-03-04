@@ -1,0 +1,38 @@
+body {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+input {
+  outline: none;
+  margin-bottom: 20px;
+}
+
+.todoContainer {
+  max-height: 350px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.inputDiv {
+  display: flex;
+  justify-content: center;
+  gap: 10px
+}
+
+.addButton {
+  background-color: green;
+  height: 22px;
+  width: 60px;
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
